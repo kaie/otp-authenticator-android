@@ -21,8 +21,8 @@
     android:title="@string/timesync_sync_now_preference_title"
     android:persistent="false">
     <intent
-      android:targetPackage="com.google.android.apps.authenticator2"
-      android:targetClass="com.google.android.apps.authenticator.timesync.SyncNowActivity">
+      android:targetPackage="de.kuix.android.apps.authenticator2"
+      android:targetClass="de.kuix.android.apps.authenticator.timesync.SyncNowActivity">
     </intent>
   </PreferenceScreen>
   <PreferenceScreen
@@ -30,8 +30,8 @@
     android:title="@string/timesync_about_feature_preference_title"
     android:persistent="false">
     <intent
-      android:targetPackage="com.google.android.apps.authenticator2"
-      android:targetClass="com.google.android.apps.authenticator.timesync.AboutActivity">
+      android:targetPackage="de.kuix.android.apps.authenticator2"
+      android:targetClass="de.kuix.android.apps.authenticator.timesync.AboutActivity">
     </intent>
   </PreferenceScreen>
 </PreferenceScreen>

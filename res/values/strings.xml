@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
   <!-- Name of the application -->
-  <string name="app_name">Google Authenticator</string>
+  <string name="app_name">OTP Authenticator</string>
 
   <!-- Shortened version of the application name, without Google branding -->
   <string name="app_name_short">Authenticator</string>
@@ -132,7 +132,7 @@
   <string name="opensource_preference_title">Open-source project</string>
 
   <!-- DO NOT TRANSLATE. URL of the Open-Source project's page. -->
-  <string name="opensource_page_url">http://code.google.com/p/google-authenticator/</string>
+  <string name="opensource_page_url">https://github.com/kaie/otp-authenticator-android</string>
 
   <!-- Preference title, used to view the terms of service from Google web page -->
   <string name="terms_preference_title">Terms of service</string>
@@ -263,7 +263,7 @@
        deprecated/old app can be uninstalled.
        The dialog offers two buttons: Uninstall (button_uninstall_old_app) and Cancel. -->
   <string name="dataimport_import_succeeded_uninstall_dialog_prompt">
-    Your data has been successfully imported from the deprecated Google Authenticator app.
+    Your data has been successfully imported from the deprecated OTP Authenticator app.
     It is now safe to uninstall the prior version of the app by clicking below.
   </string>
 

@@ -16,8 +16,8 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" msgid="5078996080612406301">"Google Authenticator"</string>
-    <string name="app_name_short" msgid="6268465073167241020">"Google Authenticator"</string>
+    <string name="app_name" msgid="5078996080612406301">"OTP Authenticator"</string>
+    <string name="app_name_short" msgid="6268465073167241020">"OTP Authenticator"</string>
     <string name="enter_key_title" msgid="3762128630776563361">"Saisie manuelle du compte"</string>
     <string name="enter_key_page_add_button" msgid="7145413404890383746">"Ajouter"</string>
     <string name="button_add_account" msgid="4301500554118934829">"Ajouter un compte"</string>

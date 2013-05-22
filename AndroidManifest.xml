@@ -15,8 +15,8 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.google.android.apps.authenticator2"
-          android:versionCode="21" android:versionName="2.21">
+          package="de.kuix.android.apps.authenticator2"
+          android:versionCode="1" android:versionName="1.0">
 
   <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="14" />
 
@@ -30,10 +30,10 @@
   <application android:label="@string/app_name_short"
                android:icon="@drawable/ic_launcher_authenticator"
                android:theme="@style/AuthenticatorTheme"
-               android:name="com.google.android.apps.authenticator.AuthenticatorApplication"
+               android:name="de.kuix.android.apps.authenticator.AuthenticatorApplication"
                android:allowBackup="false">
 
-    <activity android:name="com.google.android.apps.authenticator.AuthenticatorActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.AuthenticatorActivity"
               android:label="@string/app_name_short"
               android:launchMode="singleTask">
       <intent-filter>
@@ -48,39 +48,39 @@
       </intent-filter>
     </activity>
 
-    <activity android:name="com.google.android.apps.authenticator.SettingsAboutActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.SettingsAboutActivity"
               android:label="@string/about_preference_screen_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.AddOtherAccountActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.AddOtherAccountActivity"
               android:label="@string/add_account_menu_item" />
 
-    <activity android:name="com.google.android.apps.authenticator.EnterKeyActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.EnterKeyActivity"
               android:label="@string/enter_key_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.CheckCodeActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.CheckCodeActivity"
               android:label="@string/check_code_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.SettingsActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.SettingsActivity"
               android:label="@string/main_preference_screen_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.howitworks.IntroEnterPasswordActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.howitworks.IntroEnterPasswordActivity"
               android:theme="@style/AuthenticatorTheme.NoTitleBar"
               android:label="@string/howitworks_page_enter_password_title" />
-    <activity android:name="com.google.android.apps.authenticator.howitworks.IntroEnterCodeActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.howitworks.IntroEnterCodeActivity"
               android:theme="@style/AuthenticatorTheme.NoTitleBar"
               android:label="@string/howitworks_page_enter_code_title" />
-    <activity android:name="com.google.android.apps.authenticator.howitworks.IntroVerifyDeviceActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.howitworks.IntroVerifyDeviceActivity"
               android:theme="@style/AuthenticatorTheme.NoTitleBar"
               android:label="@string/howitworks_page_verify_device_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.timesync.SettingsTimeCorrectionActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.timesync.SettingsTimeCorrectionActivity"
               android:label="@string/timesync_preference_screen_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.timesync.AboutActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.timesync.AboutActivity"
               android:theme="@style/AuthenticatorTheme.NoTitleBar"
               android:label="@string/timesync_about_feature_screen_title" />
 
-    <activity android:name="com.google.android.apps.authenticator.timesync.SyncNowActivity"
+    <activity android:name="de.kuix.android.apps.authenticator.timesync.SyncNowActivity"
               android:theme="@android:style/Theme.Translucent.NoTitleBar"
               android:label="@string/timesync_sync_now_screen_title" />
 

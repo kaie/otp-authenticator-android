@@ -16,8 +16,8 @@
 
 <!-- With the exception of UserRowView, this file should be kept in sync
 with user_row_legacy.xml -->
-<com.google.android.apps.authenticator.UserRowView xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.authenticator2"
+<de.kuix.android.apps.authenticator.UserRowView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/de.kuix.android.apps.authenticator2"
   android:orientation="vertical" android:layout_width="fill_parent"
   android:layout_height="wrap_content">
 
@@ -46,7 +46,7 @@ with user_row_legacy.xml -->
         android:layout_height="wrap_content"
         android:src="@drawable/refresh_button"
         android:background="@android:color/transparent" />
-      <com.google.android.apps.authenticator.CountdownIndicator
+      <de.kuix.android.apps.authenticator.CountdownIndicator
         android:id="@+id/countdown_icon"
         android:layout_width="32dip"
         android:layout_height="32dip"
@@ -55,4 +55,4 @@ with user_row_legacy.xml -->
     </LinearLayout>
   </LinearLayout>
 
-</com.google.android.apps.authenticator.UserRowView>
+</de.kuix.android.apps.authenticator.UserRowView>
