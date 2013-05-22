@@ -3,6 +3,9 @@ otp-authenticator-android
 This is the source code for the OTP Authenticator app for Android.
 https://github.com/kaie/otp-authenticator-android
 
+Android binaries available at:
+https://kuix.de/android/otp-authenticator/
+
 The OTP Authenticator project includes implementations of one-time 
 passcode generators for the Android platform. One-time passcodes 
 are generated using open standards developed by the Initiative for 
